@@ -1,3 +1,14 @@
+---
+title: PDF Grounded Chat
+emoji: 📄
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.39.0
+app_file: app.py
+pinned: false
+---
+
 # PDF-Constrained Conversational Agent
 
 A small Retrieval-Augmented Generation (RAG) chatbot that answers **only** from a user-provided PDF. Out-of-scope questions are refused. Built as a Streamlit UI on top of a thin Python backend (FAISS + sentence-transformers + OpenAI/Gemini).
